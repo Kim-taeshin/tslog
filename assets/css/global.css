@@ -2,7 +2,7 @@
 
 .contents {
   background: #0b5394;
-  /* 그라데이션 지원하지 않는 브라우저 */
+
   background: -webkit-linear-gradient(left top, #0b5394, #660000);
   background: -moz-linear-gradient(right bottom, #0b5394, #660000);
   background: -o-linear-gradient(right bottom, #0b5394, #660000);
@@ -26,7 +26,7 @@
   width: 100%;
   max-width: 1100px;
   background-color: white;
-  /*shadow*/
+
   box-shadow: 0px 0px 14px 1px #000000;
 
   padding-top: 2rem;
@@ -64,17 +64,12 @@
   margin-bottom: 1rem;
 }
 
-// CodeBlock
 .code-wrap {
-  /* text-align: left;
-  border-top: 1px solid #d3d3d3;
-  box-sizing: border-box; */
 }
 .code-title {
   padding: 0.5rem;
   background-color: white;
   font-family: "s-core-dream-bold";
-  /* font-family: "D2coding"; */
   font-weight: bold;
   border-top: 1px solid #d3d3d3;
   border-left: 1px solid #d3d3d3;
