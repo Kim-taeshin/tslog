@@ -1,0 +1,39 @@
+/*
+1. s-core-dream-thin 
+2. s-core-dream-extralight 
+3. s-core-dream-light 
+4. s-core-dream-regular 
+5. s-core-dream-medium 
+6. s-core-dream-bold 
+7. s-core-dream-extrabold 
+8. s-core-dream-heavy 
+9. s-core-dream-black
+*/
+@font-face {
+  font-family: "D2Coding";
+  src: url("~assets/fonts/D2Coding-Ver1.3.2-20180524-all.ttc")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "s-core-dream-thin";
+  src: url("~assets/fonts/SCDream1.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "s-core-dream-light";
+  src: url("~assets/fonts/SCDream3.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "s-core-dream-regular";
+  src: url("~assets/fonts/SCDream4.otf") format("opentype");
+}
+@font-face {
+  font-family: "s-core-dream-bold";
+  src: url("~assets/fonts/SCDream6.otf") format("opentype");
+}
+@font-face {
+  font-family: "s-core-dream-extrabold";
+  src: url("~assets/fonts/SCDream7.otf") format("opentype");
+}

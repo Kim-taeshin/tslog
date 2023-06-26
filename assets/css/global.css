@@ -1,0 +1,87 @@
+﻿@import "/node_modules/highlight.js/styles/nord.css";
+
+.contents {
+  background: #0b5394;
+  /* 그라데이션 지원하지 않는 브라우저 */
+  background: -webkit-linear-gradient(left top, #0b5394, #660000);
+  background: -moz-linear-gradient(right bottom, #0b5394, #660000);
+  background: -o-linear-gradient(right bottom, #0b5394, #660000);
+  background: linear-gradient(to right bottom, #0b5394, #660000);
+  margin: 0;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.title {
+  color: cadetblue;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-family: "s-core-dream-bold";
+  font-size: 2rem;
+  text-align: left;
+}
+.box {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1100px;
+  background-color: white;
+  /*shadow*/
+  box-shadow: 0px 0px 14px 1px #000000;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.sentence {
+  margin: 2rem;
+  line-height: 1.8rem;
+  font-family: "s-core-dream-reguler";
+  text-align: left;
+  font-size: 1rem;
+}
+
+.sentence h1 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: cadetblue;
+}
+
+.sentence h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.sentence img {
+  max-width: 100%;
+}
+
+.sentence canvas {
+  max-width: 100%;
+}
+
+.sentence p {
+  margin-bottom: 1rem;
+}
+
+// CodeBlock
+.code-wrap {
+  /* text-align: left;
+  border-top: 1px solid #d3d3d3;
+  box-sizing: border-box; */
+}
+.code-title {
+  padding: 0.5rem;
+  background-color: white;
+  font-family: "s-core-dream-bold";
+  /* font-family: "D2coding"; */
+  font-weight: bold;
+  border-top: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+}
+.code-block {
+  font-size: 14pt;
+  border-left: 6px solid #4c6575;
+  font-family: "D2coding";
+}
